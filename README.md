@@ -20,7 +20,7 @@ docker run --network dns_app_network --name ascontainer -p 53533:53533/udp -it r
 ```
 cd FS
 docker build -t ruchikau8/fs:latest . 
-docker run --network dns_app_network --name fscontainer -p 9090:9090/udp -it ruchikau8/fs:latest
+docker run --network dns_app_network --name fscontainer -p 9090:9090 -it ruchikau8/fs:latest
 ```
 
 ### Set-up user server
@@ -28,7 +28,7 @@ docker run --network dns_app_network --name fscontainer -p 9090:9090/udp -it ruc
 cd US
 docker build -t ruchikau8/us:latest . 
 docker network create dns_app_network
-docker run --network dns_app_network --name uscontainer -p 8080:8080/udp -it ruchikau8/us:latest
+docker run --network dns_app_network --name uscontainer -p 8080:8080 -it ruchikau8/us:latest
 ```
 
 
