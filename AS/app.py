@@ -28,13 +28,13 @@ while True:
         with open("tmp.txt", 'r', encoding='utf-8') as outfile:
             for line in outfile.readlines():
                 data = json.loads(line)
-            if payload_data['TYPE'] == data['TYPE'] and payload_data['NAME'] == data['NAME']:
-                message = json.dumps(data)
-            else:
-                message = {
-                    "status": '500'
-                }
-                message = json.dumps(message)
+                if payload_data['TYPE'] == data['TYPE'] and payload_data['NAME'] == data['NAME']:
+                    message = json.dumps(data)
+                else:
+                    message = {
+                        "status": '500'
+                    }
+                    message = json.dumps(message)
     else:
         message = {
                 "status": '500'
