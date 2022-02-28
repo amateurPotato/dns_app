@@ -1,5 +1,5 @@
-# dns_app
+#  Simplified authoritative server for a network of applications
 
-## Architecture
+## System Architecture
 
-(IMAGES/architecture.png)
+[Architecture](IMAGES/architecture.png)
