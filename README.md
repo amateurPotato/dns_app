@@ -8,7 +8,7 @@
 
 ## Steps to set up the environment
 
-### Set-p authoritative server
+### Set-up authoritative server
 ```
 cd AS
 docker build -t ruchikau8/as:latest . 
