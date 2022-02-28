@@ -2,4 +2,4 @@
 
 ## Architecture
 
-IMAGES/architecture.png
+(IMAGES/architecture.png)
