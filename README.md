@@ -3,3 +3,5 @@
 ## System Architecture
 
 [Architecture](IMAGES/architecture.png)
+
+![Architecture](https://github.com/amateurPotato/dns_app/blob/main/IMAGES/architecture.png?raw=true)
