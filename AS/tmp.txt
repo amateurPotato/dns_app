@@ -1,0 +1,1 @@
+{"TYPE": "A", "NAME": "fibonacci.com", "TTL": 10, "VALUE": "10.0.0.236"}
